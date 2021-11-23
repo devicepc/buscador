@@ -1,0 +1,272 @@
+*{
+    font-family: 'Expletus Sans', cursive;
+}
+
+.h3buscador{
+    margin-left: 35%;
+    margin-top: 12%;
+    font-size: 45px;
+}
+.inputserch{
+    margin-left: 30%;
+    border-radius: 5px;
+    width: 40%;
+    height: 39px;
+}
+.inputserch::placeholder{
+    font-size: 29px;
+}
+#footer{
+    height: 400px;
+}
+.Footerright{
+    float: left;
+    display: inline;
+    margin-top: 230px;
+    padding-left: 10%;
+    font-size: 20px;
+}
+.Footerleft{
+    float: right;
+    display: inline;
+    margin-top: 230px;
+    padding-right: 25%;
+    font-size: 20px; 
+}
+.Footerleft .h6datFooter {
+    text-align: center;
+}
+.Footerright h6 {
+    text-align: center;
+}
+#gcse-search{
+    margin-left: 30%;
+    border-radius: 5px;
+    width: 40%;
+    height: 39px;
+    
+}
+.Footerleft a{
+    text-decoration: none;
+    pointer-events: none;
+cursor: default;
+color: #000;
+}
+.Footerleft a:visited {
+        color: #000;
+      }
+.Footerleft a:hover {
+    
+    color: #f04444;
+  }
+.Footerright a{
+    text-decoration: none;
+    pointer-events: none;
+ cursor: default;
+ color: #000;
+}
+.Footerright a:visited {
+        color: #000;
+      }
+.Footerright a:hover {
+     color: #f04444;
+  }
+
+.datFooter{
+    display: inline;
+    float: left;
+}
+/* menu */
+/* estilo de menu */
+
+#btn-menu{
+    display: none;
+}
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px, solid #2e90ec;
+    
+}
+header label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100%;
+
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.menu li {
+    border-right: 1px, solid #2e90ec;
+}
+.menu li:hover{
+    background: rgba(0, 0,0, 0.3);
+    border: 1px solid #2e90ec;
+    font-size: 20px;
+    border-radius: 7px;
+    
+}
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #2e90ec;
+    text-decoration: none;
+
+}
+.h3terminos{
+    text-align: center;
+    
+}
+
+.lang{
+    height: 50px;
+    width: 50px;
+    display: inline;
+    float: right;
+    margin-top: -39px;
+}
+/* info */
+.mainInfo{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/* formulario */
+
+.formulario{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 70px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+    }
+.formulario__titulo{
+    text-align: center;
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -20px;
+    font-size: 40px;
+}
+.formulario__input, .formulario__label, .formulario__submit{
+    display: block;
+    width: 90%;
+    font-size: 1.3em;
+}
+.formulario__input{
+    padding: 28px;
+    background: rgb(240, 68, 68 ,0.4);
+    border: 1px solid rgba(0, 0,0, 0.3);
+    margin-bottom: 40px;
+}
+.formulario__input:focus{
+    outline: 1px solid rgba(0, 0,0, 0.7);
+}
+.formulario__input:focus + .formulario__label{
+    margin-top: -160px;
+}
+.formulario__label{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0, 0,0, 0.5);
+    transition: all 0.2s;
+}
+.formulario__submit{
+    background: rgba(0, 0,0, 0.7);
+    color: wheat;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    margin-left: 5%;
+}
+.formulario__submit:hover{
+    color:#2e90ec ;
+    background: rgb(240, 68, 68 ,0.7);
+    padding: 9px 15px;
+    font-weight: bolder;
+    
+}
+.darkMode{
+    margin-left: 85%;
+}
+.DarckMode2{
+    border-radius: 10px;
+    background-color: #2e90ec;
+}
+html.dark-mode{
+    filter: invert(100%);
+}
+html.dark-mode a{
+    color: #e7e9f0;
+}
+html.dark-mode .h3buscador {
+    color: #010816;
+}
+html.dark-mode *{
+    color: #ebe4e4;
+}
+html .dark-mode .Footerleft h3{
+    color: rgb(231, 224, 224);
+}
+html.dark-mode .body{
+    background: #eff1f5;
+}
+html .dark-mode  a:visited {
+    color: #000;
+  }
+html .dark-mode .Footerright a:hover {
+ color: #f04444;
+}
+
+
+
+.fijar {
+    margin-top: -135px;
+}
+/* preguntas Faq */
+#TituloFaQ{
+    text-align: center;
+} 
+
+.mainInfo .preguntasweb{
+    border: #0b0d13 1px solid;
+    border-radius: 7px;
+    
+}
+.txt_faq{
+    margin-left: 2%;
+    
+}
+.PreguntasWeb .h3terminos{
+    text-align: center;
+    display: inline;
+    
+}
+.InfoFAQ2{
+    display: inline;
+    margin-left: 70%;
+    
+    border:#2e90ec 3px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.PreguntasWeb{
+  margin-top: 20px;
+}
+.preguntasweb{
+    margin-top: 50px;
+}
+hr{
+    border: #f04444 solid 2px;
+}
+
+/* fin de preguntas */
